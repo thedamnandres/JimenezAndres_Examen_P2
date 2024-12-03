@@ -26,8 +26,8 @@ public partial class RecargaPage : ContentPage
     {
         Recargas recargas = new Recargas
         {
-            Number = EditorNumero.Text,
-            Name = EditorNombre.Text
+            Number = ajimenez_editor1.Text,
+            Name = ajimenez_editor2.Text
         };
         bool saveRecarga = _recargaRepo.CreateRecarga(recargas);
         if (saveRecarga)

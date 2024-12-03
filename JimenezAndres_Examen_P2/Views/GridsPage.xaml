@@ -12,27 +12,41 @@
             <ColumnDefinition Width="*" />
             <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
+        
+        <Grid Grid.Row="0" Grid.Column="0">
+            <BoxView Color="White" />
+            <Label Text="Andres"
+                   x:Name="ajimenez_box1label"
+                   HorizontalOptions="Center" 
+                   VerticalOptions="Center" 
+                   Style="{StaticResource Box1}"/>
+        </Grid>
 
-        <BoxView 
-            Color="White" 
-            Grid.Row="0" 
-            Grid.Column="0" />
+        <Grid Grid.Row="0" Grid.Column="1">
+            <BoxView Color="DarkGrey" />
+            <Label Text="Vinicio" 
+                   x:Name="ajimenez_box2label"
+                   HorizontalOptions="Center" 
+                   VerticalOptions="Center" 
+                   Style="{StaticResource Box2}"/>
+        </Grid>
         
-        <BoxView 
-            Color="DarkGrey" 
-            Grid.Row="0" 
-            Grid.Column="1" />
+        <Grid Grid.Row="1" Grid.Column="0">
+            <BoxView Color="GhostWhite" />
+            <Label Text="Jimenez" 
+                   x:Name="ajimenez_box3label"
+                   HorizontalOptions="Center" 
+                   VerticalOptions="Center" 
+                   Style="{StaticResource Box3}"/>
+        </Grid>
         
-        <BoxView 
-            Color="DimGrey" 
-            Grid.Row="1" 
-            Grid.Column="0" />
-        
-        <BoxView 
-            Color="Black" 
-            Grid.Row="1" 
-            Grid.Column="0" />
-       
-        
+        <Grid Grid.Row="1" Grid.Column="1">
+            <BoxView Color="Black" />
+            <Label Text="Tipan" 
+                   x:Name="ajimenez_box4label"
+                   HorizontalOptions="Center" 
+                   VerticalOptions="Center" 
+                   Style="{StaticResource Box4}"/>
+        </Grid>
     </Grid>
 </ContentPage>

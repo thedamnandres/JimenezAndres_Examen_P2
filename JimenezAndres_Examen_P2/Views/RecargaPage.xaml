@@ -6,36 +6,57 @@
     <ScrollView>
         <VerticalStackLayout
             Padding="30,0"
-            Spacing="10">
-            <Image
-                Source="dotnet_bot.png"
-                HeightRequest="185"
-                Aspect="AspectFit"/>
+            Spacing="20">
+            
+            <Label
+                Text="Ingrese el numero de telefono"
+                HorizontalOptions="Center"
+                Margin="0,30,0,0"
+                FontAttributes="Bold"/>
             
             <Editor
-                x:Name="EditorNumero"
-                Placeholder="Ingrese el numero a recargar"
+                x:Name="ajimenez_editor1"
+                Placeholder="0987654321"
                 AutoSize="TextChanges"
                 HeightRequest="50"/>
+            
+            <Label
+                Text="Ingrese el nombre de quien realiza la recarga"
+                HorizontalOptions="Center"/>
+            
             <Editor
-                x:Name="EditorNombre"
-                Placeholder="Ingrese el nombre del propietario"
+                x:Name="ajimenez_editor2"
+                Placeholder="Pepito Perez"
                 AutoSize="TextChanges"
                 HeightRequest="50"/>
-
-            <Label
-                Text="La última recarga realizada fue:"/>
-            <Label
-                x:Name="NúmeroTeléfono"
-                Text="{Binding Numero}"/>
-            <Label
-                x:Name="Nombre"
-                Text="{Binding Nombre}"/>
 
             <Button
-                x:Name="GuardarRecarga"
+                x:Name="ajimenez_btn"
                 Text="Recargar"
                 Clicked="btn_save_Clicked"/>
+            
+            <Label
+                Text="La última recarga realizada fue:"
+                Margin="0,30,0,10"/>
+            
+            <Label x:Name="ajimenez_number">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="Numero:  " />
+                        <Span Text="{Binding Number}" />
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            
+            <Label x:Name="ajimenez_name">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="Nombre:  " />
+                        <Span Text="{Binding Name}" />
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>
