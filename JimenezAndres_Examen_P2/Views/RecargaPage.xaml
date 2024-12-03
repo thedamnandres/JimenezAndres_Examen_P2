@@ -3,7 +3,39 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="JimenezAndres_Examen_P2.Views.RecargaPage">
-    <ContentPage.Content>
-        
-    </ContentPage.Content>
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="10">
+            <Image
+                Source="dotnet_bot.png"
+                HeightRequest="185"
+                Aspect="AspectFit"/>
+            
+            <Editor
+                x:Name="EditorNumero"
+                Placeholder="Ingrese el numero a recargar"
+                AutoSize="TextChanges"
+                HeightRequest="50"/>
+            <Editor
+                x:Name="EditorNombre"
+                Placeholder="Ingrese el nombre del propietario"
+                AutoSize="TextChanges"
+                HeightRequest="50"/>
+
+            <Label
+                Text="La última recarga realizada fue:"/>
+            <Label
+                x:Name="NúmeroTeléfono"
+                Text="{Binding Numero}"/>
+            <Label
+                x:Name="Nombre"
+                Text="{Binding Nombre}"/>
+
+            <Button
+                x:Name="GuardarRecarga"
+                Text="Recargar"
+                Clicked="btn_save_Clicked"/>
+        </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>

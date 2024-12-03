@@ -1,9 +1,10 @@
+using JimenezAndres_Examen_P2.Interfaces;
 using JimenezAndres_Examen_P2.Models;
 using Newtonsoft.Json;
 
 namespace JimenezAndres_Examen_P2.Repositories;
 
-public class RecargasFileRepository : Recargas
+public class RecargasFileRepository : iRecargas
 {
     public string _filePath = Path.Combine(FileSystem.AppDataDirectory, "AndresJimenez.txt");
     
