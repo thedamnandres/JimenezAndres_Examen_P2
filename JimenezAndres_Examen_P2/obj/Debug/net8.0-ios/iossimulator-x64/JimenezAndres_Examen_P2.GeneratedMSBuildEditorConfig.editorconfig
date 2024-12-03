@@ -28,12 +28,6 @@ build_metadata.AdditionalFiles.ManifestResourceName = JimenezAndres_Examen_P2.Ap
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[/Users/thedamnandres/RiderProjects/JimenezAndres_Examen_P2/JimenezAndres_Examen_P2/MainPage.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = JimenezAndres_Examen_P2.MainPage.xaml
-build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
-build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
-
 [/Users/thedamnandres/RiderProjects/JimenezAndres_Examen_P2/JimenezAndres_Examen_P2/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = JimenezAndres_Examen_P2.Resources.Styles.Colors.xaml
@@ -45,3 +39,15 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = JimenezAndres_Examen_P2.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Styles.xaml
+
+[/Users/thedamnandres/RiderProjects/JimenezAndres_Examen_P2/JimenezAndres_Examen_P2/Views/GridsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = JimenezAndres_Examen_P2.Views.GridsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/GridsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/GridsPage.xaml
+
+[/Users/thedamnandres/RiderProjects/JimenezAndres_Examen_P2/JimenezAndres_Examen_P2/Views/RecargaPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = JimenezAndres_Examen_P2.Views.RecargaPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/RecargaPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/RecargaPage.xaml

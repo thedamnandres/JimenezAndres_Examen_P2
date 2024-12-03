@@ -4,12 +4,20 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:JimenezAndres_Examen_P2"
+    xmlns:views="clr-namespace:JimenezAndres_Examen_P2.Views"
     Shell.FlyoutBehavior="Disabled"
     Title="JimenezAndres_Examen_P2">
 
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+    <TabBar>
+        <ShellContent
+            Title="Recargas"
+            ContentTemplate="{DataTemplate views:RecargaPage}"
+            Icon="phone.png" />
+        
+        <ShellContent
+            Title="Grids"
+            ContentTemplate="{DataTemplate views:GridsPage}"
+            Icon="grid.png" />
+    </TabBar>
 
 </Shell>
