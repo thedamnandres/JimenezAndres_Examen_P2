@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "75vJ3h4A1g8=",
+  "dgSpecHash": "JlhtjVXbs5M=",
   "success": true,
   "projectFilePath": "/Users/thedamnandres/RiderProjects/JimenezAndres_Examen_P2/JimenezAndres_Examen_P2/JimenezAndres_Examen_P2.csproj",
   "expectedPackageFiles": [
@@ -24,6 +24,7 @@
     "/Users/thedamnandres/.nuget/packages/microsoft.maui.graphics/8.0.82/microsoft.maui.graphics.8.0.82.nupkg.sha512",
     "/Users/thedamnandres/.nuget/packages/microsoft.maui.resizetizer/8.0.82/microsoft.maui.resizetizer.8.0.82.nupkg.sha512",
     "/Users/thedamnandres/.nuget/packages/microsoft.net.illink.tasks/8.0.8/microsoft.net.illink.tasks.8.0.8.nupkg.sha512",
+    "/Users/thedamnandres/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
     "/Users/thedamnandres/.nuget/packages/xamarin.android.glide/4.15.1.2/xamarin.android.glide.4.15.1.2.nupkg.sha512",
     "/Users/thedamnandres/.nuget/packages/xamarin.android.glide.annotations/4.15.1.2/xamarin.android.glide.annotations.4.15.1.2.nupkg.sha512",
     "/Users/thedamnandres/.nuget/packages/xamarin.android.glide.disklrucache/4.15.1.2/xamarin.android.glide.disklrucache.4.15.1.2.nupkg.sha512",
